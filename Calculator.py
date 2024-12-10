@@ -14,8 +14,8 @@ class Calculator:
         return a / b
 
     # Square root function to be implemented as per assignment instructions
-   # def square_root(self, x):
-    #    return math.sqrt(x)
+    def square_root(self, x):
+        return math.sqrt(x)
 
 if __name__ == "__main__":
     calculator = Calculator()
