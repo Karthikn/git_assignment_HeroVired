@@ -13,8 +13,10 @@ class Calculator:
     def divide(self, a, b):
         return a / b
 
-    # Square root function to be implemented as per assignment instructions
+    #  Square root function 
     def square_root(self, x):
+        if x < 0:
+            raise ValueError("Cannot compute the square root of a negative number.")
         return math.sqrt(x)
 
 if __name__ == "__main__":
