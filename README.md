@@ -1,4 +1,4 @@
-# Git Assignment - Hero Vired
+# Git Assignment 
 
 ## Table of Contents
 
